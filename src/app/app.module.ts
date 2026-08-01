@@ -9,8 +9,8 @@ import { AppComponent } from './app.component';
 export function MSALInstanceFactory(): IPublicClientApplication {
   return new PublicClientApplication({
     auth: {
-      clientId: 'd2c00c02-04bf-4082-b214-2a43d3075ecc', 
-      authority:  'https://login.microsoftonline.com/4176967d-94cb-402b-9b66-f11178c22d72',
+      clientId: '', 
+      authority:  'https://login.microsoftonline.com/',
       redirectUri: 'http://localhost:3000'
     }
   })
